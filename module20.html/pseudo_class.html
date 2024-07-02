@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class</title>
+    <style>
+        /* .hello:hover{
+            background-color: black;
+            color: white;
+            border: red solid;
+        }
+        input:focus{
+            font-size: 25px;
+            color: brown;
+            background-color: black;
+        }*/
+        /* a:hover{
+            color: aqua;
+        }
+        a:active{
+            color:pink;
+        }
+        a:visited{
+            color: black;
+        } */
+        /* nav:first-child{
+            color: aqua;
+        } */
+        /* a:first-child{
+            background-color: yellowgreen;
+        } */
+        /* a:nth-child(2n+1){
+            background-color: pink;
+        } */
+        .lorem::first-line{
+            color: #808888;
+        }
+        .lorem::before{
+            content: "pw skills";
+            color: red;
+        }
+        .lorem::after{
+            content: "pw skills";
+            color: green;
+        }
+        ::selection{
+            background-color:yellow;
+            color: red;
+        }
+        ::marker{
+            color: red;
+        }
+
+    
+    </style> 
+</head>
+<body>
+    <!--PSEUDO CLASS-->
+    <p class="hello">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quibusdam cum quidem neque itaque, doloribus dolor officia eum placeat! Minus cumque repellendus eligendi odio! Atque possimus officiis error expedita aperiam, perspiciatis dolorem, dolores quibusdam repellendus, deleniti veritatis nobis laboriosam. Modi voluptatem molestias labore perferendis voluptatibus odit quasi eligendi perspiciatis tempore.</p>
+    <input type="text"name=""id=""/>
+    <hr />
+    <nav>
+         <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+    </nav>
+    <p class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid nemo, adipisci vitae, provident maxime atque veniam quam placeat minima tenetur illum ipsam non a distinctio dolores inventore, quasi quod saepe? Labore perspiciatis praesentium repudiandae eius aperiam est molestias optio debitis eligendi eaque? Adipisci explicabo ipsum magnam optio facere, laboriosam repellendus reprehenderit voluptatibus aperiam, autem temporibus voluptate officiis veniam magni corporis earum molestiae nam! Corporis asperiores, ex cumque voluptatibus, facilis at fugiat inventore impedit numquam laboriosam labore beatae ducimus provident accusamus ea assumenda. Ratione dolor praesentium officiis, quasi rerum, facilis ex consequatur assumenda aliquid inventore quisquam possimus reiciendis, iure tenetur ipsam!</p>
+    <ul>
+        <li>one</li>
+        <li>one</li>
+        <li>one</li>
+        <li>one</li>
+    </ul>
+   
+</body>
+</html>

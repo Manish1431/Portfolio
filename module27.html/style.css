@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#main{
+    height: 100vh;
+    background-image: url('pexels-maxyne-barcel-10402282\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* filter: brightness(50%); */
+}
+nav{
+    display: flex;
+    text-decoration: none;
+}
+
+nav img{
+    /* display: flex; */
+    margin: 3%;
+    height: 40px;
+}
+
+nav ul{
+    display: flex;
+    color: yellow;
+    margin: 0 auto;
+}
+nav ul li{
+    display: flex;
+    text-decoration: none;
+    padding: 25px;
+}
+nav button{
+  background-color: red;
+  color: white;
+  height: 35px;
+  width: 85px;
+  margin: 35px;
+  border: none;
+  cursor: pointer;
+}
+div h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: yellow;
+    font-size: 10vh;
+}
+#heloo{
+    display: flex;
+    justify-content: center;
+    
+}
+#heloo button{
+    background-color: red;
+    color: white;
+    height: 55px;
+    width: 175px;
+    margin: 35px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 60vh;
+    font-size: 3vh;  
+}
+#last{
+    display: flex;
+    justify-content: end;
+
+}
+#last img{
+    height: 120px;
+    width: 130px;
+}
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Max and width</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .width{
+            min-width: 100px;
+            border: 1px solid red;
+            display: inline-block;
+            overflow: hidden;
+
+        }
+        .height{
+            max-height: 100px;
+            background-color: black;
+            color: brown;
+            overflow: hidden;
+        }
+        .box-sizing{
+            display: inline-block;
+            width: 160px;
+            height: 160px;
+            padding: 100px;
+            border: 1px solid red;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <!-- width -->
+    <p class="width">Lorem.</p>
+    <!-- height -->
+    <p class="height">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quis, unde praesentium quas mollitia doloribus. Reprehenderit harum voluptatem obcaecati beatae nostrum nemo deserunt velit aliquam quis blanditiis provident quisquam dicta, vero nam fugit?</p>
+    <!-- box-sizing -->
+    <p class="box-sizing">Lorem ipsum dolor sit.</p>
+    <p class="box-sizing">Lorem ipsum dolor sit.</p>
+    <p class="box-sizing">Lorem ipsum dolor sit.</p>
+</body>
+</html>
